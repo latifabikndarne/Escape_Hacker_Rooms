@@ -14,32 +14,28 @@
 
 .brandBox {
       background-color: #001826;
-      display: grid;
-      grid-template-columns: 1;
-      grid-template-rows: 1;
+      display: flex;
       width: 480px;
       height: 144px;
-      border: 3px solid block;
-      padding:0px;
+      
+      
     }
 
     .brandBox img {
-      position: relative;
       width: 128px;
       height: 82px;
       margin-top:26px;
       margin-left: 27px;
-      padding: 0px;
-     
+      border: 3px solid transparent;
+      box-sizing: border-box;
       
     
     }
     .brandBox img:hover {
-      border-color: rgb(25, 183, 236);
-      border-width: 3px;
-      border-style: solid; 
-      padding: 0px; 
-     
+      border: 3px solid rgb(25, 183, 236);
+      object-fit: cover; 
+      box-sizing: border-box;
+            
       
     }
 
