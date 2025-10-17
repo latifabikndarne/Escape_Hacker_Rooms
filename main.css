@@ -12,32 +12,53 @@
 
 }*/
 
-.brand-box {
+.brandBox {
       background-color: #001826;
-      display: flex;
-      align-items: center;
-      padding: 10px 16px;
+      display: grid;
+      grid-template-columns: 1;
+      grid-template-rows: 1;
       width: 480px;
       height: 144px;
+      border: 3px solid block;
+      padding:0px;
     }
 
-    .brand-box img {
-      width: auto;
-      height: auto;
+    .brandBox img {
+      position: relative;
+      width: 128px;
+      height: 82px;
+      margin-top:26px;
+      margin-left: 27px;
+      padding: 0px;
+     
       
-   
+    
+    }
+    .brandBox img:hover {
+      border-color: rgb(25, 183, 236);
+      border-width: 3px;
+      border-style: solid; 
+      padding: 0px; 
+     
+      
     }
 
-    .brand-text {
+    .brandText {
       color: white;
-      line-height: 1.2;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: bold;
+      width: 78px;
+      height: 84px;
+      margin-top: 31px;
+      margin-left: 14px;
+      letter-spacing: 0%;
+      line-height: 100%;
+      font-weight: 700;
     }
 
-    .brand-text a {
-      color: white;
-      text-decoration: none;
-    }
-
-    .brand-text a:hover {
-      text-decoration: underline;
+    .brandText:hover {
+      text-decoration: 3px underline;
+      text-decoration-color: rgb(25, 183, 236);
+      
     }
