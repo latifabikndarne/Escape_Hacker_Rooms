@@ -1,0 +1,43 @@
+
+
+
+
+/*.header {
+    display:grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    background-color: #011827;
+    width: 480px;
+    height: 144px;
+
+}*/
+
+.brand-box {
+      background-color: #001826;
+      display: flex;
+      align-items: center;
+      padding: 10px 16px;
+      width: 480px;
+      height: 144px;
+    }
+
+    .brand-box img {
+      width: auto;
+      height: auto;
+      
+   
+    }
+
+    .brand-text {
+      color: white;
+      line-height: 1.2;
+    }
+
+    .brand-text a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .brand-text a:hover {
+      text-decoration: underline;
+    }
